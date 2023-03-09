@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@paypal/react-paypal-js": "^7.8.2"
+  },
+  "name": "amazona",
+  "description": "1. Introduction\r 2. Install Tools\r 3. Create React App\r 4. Create Git Repository\r 5. Add routing\r 6. npm i react-router-dom\r 7. create route for home screen\r 8. create router for product screen\r 9. create Node.JS Server\r 10. run npm init in folder\r 11. update package.json set type: module\r 12. Add .js to imports\r 13. npm install express\r 14. create server.js\r 15. Add start command as node backend/server.js\r 16. require express\r 17. create route for / return backend is ready\r 18. move products.js from frontend to backend\r 19. create route for /api/products\r 20. return products\r 21. run npm start\r 22. Fetch Products From Backend\r 23. set proxy in package.json\r 24. npm install axios\r 25. use state hook\r 26. use effect hook\r 27. use reducer hook\r 28. Manage State By Reducer Hook\r 29. define reducer\r 30. update fetch data\r 31. get state from useReducer\r 32. Add bootstrap UI Framework\r 33. npm install react-bootstrap bootstrap\r 34. update App.js\r 35. Create Product and Rating Components\r 36. create rating component\r 37. create product component\r 38. Use Rating component in rating product component\r 39. Create Loading and Message Component\r 40. create loading component\r 41. use spinner component\r 42. create message component\r 43. create utilis.js to define getError function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install& cd../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rudegeza/myproject-amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rudegeza/myproject-amazona/issues"
+  },
+  "homepage": "https://github.com/Rudegeza/myproject-amazona#readme"
+}
